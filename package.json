@@ -1,0 +1,21 @@
+{
+  "name": "responsive-breakpoint-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "responsive-breakpoint-helper"
+  ],
+  "author": "Prahlad Inala",
+  "license": "ISC",
+  "description": "A lightweight package that provides a simple API to check the current responsive breakpoint (like isMobile(), isTablet(), etc.) based on common screen sizes. This can be used for conditionally rendering components in React or other frameworks.",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  }
+}
